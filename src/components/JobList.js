@@ -97,7 +97,7 @@ const JobList = () => {
     jobTitle: "Undergraduate Data Science Researcher",
     duration: "Jan 2025 – May 2025",
     desc: [
-      "Led end-to-end development of a production-grade automated scheduling system for a marine propeller factory, generating optimized workforce schedules from operational constraints and historical onsite data.",
+      "Worked with my team on an end-to-end development of a production-grade automated scheduling system for a marine propeller factory, generating optimized workforce schedules from operational constraints and historical onsite data.",
       "Built robust data pipelines to ingest, scrape, clean, and integrate workforce availability, machine utilization, and job queue data, translating factory requirements into executable scheduling logic.",
       "Developed an interactive Streamlit dashboard to visualize schedules, constraint trade-offs, real-time resource allocation, and efficiency metrics, resulting in a 30% improvement in factory productivity."
     ]
