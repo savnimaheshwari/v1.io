@@ -13,6 +13,7 @@
   color: var(--slate);
   position: relative;
 }
+#projects .section-header { margin-top: 80px; }
 
 /* Horizontally‑scrollable card track */
 .projects-grid {
@@ -91,6 +92,7 @@
   cursor: default;
   position: relative;
   scroll-snap-align: start;
+   
 }
 .projects-card:hover {
   background-color: var(--lightest-navy);
