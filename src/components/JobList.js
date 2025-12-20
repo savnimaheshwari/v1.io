@@ -83,42 +83,56 @@ const JobList = () => {
 
   const experienceItems = {
   "Johnson & Johnson (Global Services)": {
-  "jobTitle": "Automation & GenAI Intern",
-  "duration": "Summer 2025",
-  "desc": [
-    "Built dynamic translation features and content ingestion pipelines for JAIDA, J&J's enterprise digital assistant, using RAG-based retrieval and prompt engineering to enable context-aware multilingual responses.",
-    "Engineered automated traceability systems to monitor model performance and track feature deployments in production, ensuring reliability across enterprise operations.",
-    "Optimized SQL workflows and backend pipelines, reducing query response times and delivering faster insights across Procurement, Finance, and HR."
-  ]
-}
-,
-    "Purdue College of Science": {
-      jobTitle: "COSINE Calculus Tutor (substitute) @",
-      duration: "AUG 2024 - PRESENT",
-      desc: [
-        "I serve as a COSINE math tutor at Purdue University, specializing in Calculus 1, 2, 3, and Pre-Calculus for undergraduate students.",
-        "I assist students in understanding complex mathematical concepts and help them improve their problem-solving skills.",
-        "I provide group tutoring sessions to support coursework and exam preparation."
-      ]
-    },
-    "Purdue Computer Science Dept.": {
-      jobTitle: "Undergraduate Teaching Assistant @",
-      duration: "AUG 2024 - DEC 2024",
-      desc: [
-        "I held online office hours for 50+ freshmen students in the class CS 193 (Tools), helping them with questions about the command line, LaTeX, Git, GitHub, interview preparation, and resume building.",
-        "I graded homework assignments and provided feedback to support their learning."
-      ]
-    },
-    "STAR LABS Surat": {
-      jobTitle: "Avionics Intern @",
-      duration: "JUN 2022 - JUL 2022",
-      desc: [
-        "Collaborated with IIT Madras Aerospace students to design a static test pad for high-powered rockets, enhancing reliability by 20%.",
-        "Used Proteus for avionics simulation and SolidWorks for mechanical design, contributing to the project’s technical accuracy.",
-        "Worked as part of a team to apply engineering knowledge to improve the reliability and functionality of the test pad."
-      ]
-    }
-  };
+    jobTitle: "Automation & GenAI Intern",
+    duration: "Jun 2025 – Aug 2025",
+    desc: [
+      "Worked on JAIDA, J&J’s internal GenAI digital assistant serving 138,000+ employees across Procurement, HR, and Clinical Operations, enabling enterprise-scale access to structured and unstructured data.",
+      "Designed and enhanced multilingual data ingestion pipelines, including document parsing, metadata extraction, normalization, indexing, and translation workflows for healthcare and enterprise content.",
+      "Developed dynamic translation and query-handling features for healthcare-specific use cases such as employee benefits, clinical summaries, and safety protocols.",
+      "Built an automated traceability system to monitor model performance, feature rollouts, and deployments across production environments."
+    ]
+  },
+
+  "The Data Mine – Yamaha Precision Propellers Inc.": {
+    jobTitle: "Undergraduate Data Science Researcher",
+    duration: "Jan 2025 – May 2025",
+    desc: [
+      "Led end-to-end development of a production-grade automated scheduling system for a marine propeller factory, generating optimized workforce schedules from operational constraints and historical onsite data.",
+      "Built robust data pipelines to ingest, scrape, clean, and integrate workforce availability, machine utilization, and job queue data, translating factory requirements into executable scheduling logic.",
+      "Developed an interactive Streamlit dashboard to visualize schedules, constraint trade-offs, real-time resource allocation, and efficiency metrics, resulting in a 30% improvement in factory productivity."
+    ]
+  },
+
+  "Purdue University – Computer Science Department": {
+    jobTitle: "Undergraduate CS Teaching Assistant",
+    duration: "Aug 2024 – Present",
+    desc: [
+      "Hold office hours and mentor 100+ students in programming fundamentals, Git/GitHub workflows, Linux terminal usage, and LaTeX documentation for CS 193 (Development Tools).",
+      "Instruct students on data acquisition, cleaning, wrangling, and exploratory analysis using Python and SQL across CSV, JSON, and HTML datasets, emphasizing reproducible workflows.",
+      "Incoming TA for CS 242 (Data Science, Spring 2026), mentoring students in Python and R for data wrangling, dimensionality reduction, and hypothesis testing pipelines."
+    ]
+  },
+
+  "Purdue College of Science": {
+    jobTitle: "COSINE Calculus Tutor (Substitute)",
+    duration: "Aug 2024 – Present",
+    desc: [
+      "Serve as a COSINE math tutor at Purdue University, specializing in Calculus I, II, III, and Pre-Calculus for undergraduate students.",
+      "Assist students in understanding complex mathematical concepts and improving analytical problem-solving skills.",
+      "Lead group tutoring sessions to support coursework mastery and exam preparation."
+    ]
+  },
+
+  "STAR LABS Surat": {
+    jobTitle: "Avionics Intern",
+    duration: "Jun 2022 – Jul 2022",
+    desc: [
+      "Collaborated with IIT Madras Aerospace students to design a static test pad for high-powered rockets, improving system reliability by 20%.",
+      "Used Proteus for avionics simulation and SolidWorks for mechanical design, contributing to technical validation and testing accuracy.",
+      "Worked cross-functionally to apply avionics and mechanical engineering principles in a real-world aerospace testing environment."
+    ]
+  }
+};
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
