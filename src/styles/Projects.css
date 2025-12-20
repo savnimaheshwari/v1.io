@@ -13,7 +13,7 @@
   color: var(--slate);
   position: relative;
 }
-#projects .section-header { margin-top: 80px; }
+#projects .section-header { margin-top: 100px; }
 
 /* Horizontally‑scrollable card track */
 .projects-grid {
